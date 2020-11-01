@@ -18,6 +18,8 @@ If installed correctly, most features should be working. See "Known Issues" for 
 6. Sideload `ubports_firmware_mount_patcher.zip` from the [Releases](https://github.com/tadiphone-ubports/documentation/releases) page of this repository.
 7. Reboot into system and enjoy.
 
+Note: the default user and password is `phablet`. For more details, see the ubports GSI wiki at <https://github.com/ubports/porting-notes/wiki/Generic-system-image-(GSI)>
+
 # Update
 
 Unfortunately there is no OTA update support for ubports GSI yet.
