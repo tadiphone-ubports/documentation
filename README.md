@@ -4,6 +4,10 @@ Documentation and releases of UBports for Tadiphone TP1803.
 
 This port is based on the UBports GSI image by @erfanoabdi.
 
+# Status
+
+If installed correctly, most features should be working. See "Known Issues" for a list of known bugs.
+
 # Installation
 
 1. Flash custom `abl` and `recovery` on your Tadiphone. If you want to use Anbox, make sure to flash the one provided in the [Releases](https://github.com/tadiphone-ubports/documentation/releases) page of this repository.
