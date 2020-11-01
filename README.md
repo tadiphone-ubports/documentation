@@ -6,12 +6,12 @@ This port is based on the UBports GSI image by @erfanoabdi.
 
 # Installation
 
-1. Flash custom `abl` and `recovery` on your Tadiphone. If you want to use Anbox, make sure to flash the one provided in the "Releases" page of this repository.
+1. Flash custom `abl` and `recovery` on your Tadiphone. If you want to use Anbox, make sure to flash the one provided in the [Releases](https://github.com/tadiphone-ubports/documentation/releases) page of this repository.
 2. If you are coming from a ROM newer than Android Q, restore your `modem` partition to the stock one.
-3. In bootloader, flash `halium-boot.img` and `vendor.img` from the "Releases" page of this repository.
+3. In bootloader, flash `halium-boot.img`, `dtbo.img` and `vendor.img` from the [Releases](https://github.com/tadiphone-ubports/documentation/releases) page of this repository.
 4. Reboot into recovery, __FORMAT__ data.
 5. Sideload `ubports_GSI_installer_XX.zip` (replace XX with the latest version) from <https://build.lolinet.com/file/halium/GSI/>
-6. Sideload `ubports_firmware_mount_patcher.zip` from the "Releases" page of this repository.
+6. Sideload `ubports_firmware_mount_patcher.zip` from the [Releases](https://github.com/tadiphone-ubports/documentation/releases) page of this repository.
 7. Reboot into system and enjoy.
 
 # Update
