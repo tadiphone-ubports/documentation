@@ -33,7 +33,7 @@ sudo mount -o remount,rw /
 Then install `anbox-ubuntu-touch`
 
 ```bash
-sudo apt-get update && sudo apt-get install anbox-ubuntu-touch
+sudo apt-get update && sudo apt-get install anbox-ubuntu-touch android-tools-adb
 ```
 
 After this, create `~/anbox-data` and `~/anbox-data/.enable`, then download <http://cdimage.ubports.com/anbox-images/android-armhf-64binder.img> to `~/anbox-data/android.img`.
@@ -44,6 +44,8 @@ start -q anbox-session
 ```
 
 Wait for a minute or so you should see Anbox apps start popping out in application list.
+
+To install apps, use `adb install` on your phone.
 
 # Update
 
