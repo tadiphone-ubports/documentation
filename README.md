@@ -61,6 +61,8 @@ Download the new `ubports_GSI_installer_XX.zip`, sideload it and `ubports_firmwa
 
 You can actually update via `apt-get update && apt-get upgrade` after re-mounting the rootfs as read-write. However, this method of upgrading is unsupported by UBports and may cause issues, though generally it should be fine as long as you stay in the same LTS version of Ubuntu. Just keep in mind that whatever you change in the rootfs will be overwritten if you flash the UBports GSI image again, and you won't get new fixes from Erfan GSI by upgrading this way (because those fixes are not in software packages but in overlaid configs). You could always update erfan's config manually according to his rootfs builder updates, though.
 
+Updates via this way may also overwrite some changes introduced in `ubports_firmware_mount_patcher.zip`. Of course, you could always re-flash that zip to get them back.
+
 # Known Issues
 
 1. Mobile network works but can sometimes be quirky. For example, it sometimes shows an empty signal bar even when you are connected to mobile network. If your mobile network does not work, try switching to 2G/3G mode and switching back to 4G mode.
